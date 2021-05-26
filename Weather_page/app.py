@@ -12,7 +12,7 @@ def weather_fetch(city_name):
     :return: temperature, humidity
     """
     #api_key = config.weather_api_key
-    api_key = "5db93eca8e26e903b16716756e9b2d6b"
+    api_key = "Your_api_key"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
